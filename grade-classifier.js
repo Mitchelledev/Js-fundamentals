@@ -16,4 +16,4 @@ if (score < 0 || score > 100) {
     console.log("D");
 } else {
     console.log("F");
-}
+} 
