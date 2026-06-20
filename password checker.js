@@ -1,7 +1,3 @@
-// let password ="hello123";
-// console.log(typeof password)
-
-// console.log(password.includes("3"))
 let password1 = "michel";
 let password2 = "michelle"
 let password3 = "michelle@123";
