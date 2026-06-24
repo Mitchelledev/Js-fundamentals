@@ -10,17 +10,17 @@ for(let i = 0; i < students.length; i++){
     total = total + students[i].score;
 }
 
-let average = total / students.length;
+let average = total / students.length; 
 console.log(average) 
 
 let highest = students[0].score;
 
 for(let i = 1; i < students.length; i++){
     if(students[i].score > highest){
-        highest = students[i].score;
+        highest = students[i].score;  
     }
 }
-console.log(`highest score: ${highest}`);
+console.log(`highest score: ${highest}`); 
 
 
 let lowest = students[0].score;
