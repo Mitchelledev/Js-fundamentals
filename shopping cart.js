@@ -13,6 +13,6 @@ for(let i = 0; i < cart.length; i++){
      total = total + cart[i].price
 }
 
-console.log(`total: ${total}`)
+console.log(`total: ${total}`) 
 
 
