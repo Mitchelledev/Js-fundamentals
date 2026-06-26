@@ -16,6 +16,6 @@ function checkPasswordStrength(password){
 }
 console.log(checkPasswordStrength("michel"))        
 console.log(checkPasswordStrength("michelle"))     
-console.log(checkPasswordStrength("michelle@123"))  
+console.log(checkPasswordStrength("michelle@123")) 
 
 

@@ -10,7 +10,7 @@ cart = cart.filter((item) => item.name !== "mango");
 let total = 0;
 
 for(let i = 0; i < cart.length; i++){
-     total = total + cart[i].price
+     total = total + cart[i].price 
 }
 
 console.log(`total: ${total}`) 
