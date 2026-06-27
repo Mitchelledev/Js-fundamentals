@@ -13,9 +13,9 @@ const question = [
    }
 ]; 
 
-const userAnswers = ["Abuja", "Donald trump", "Elon musk"]; 
+const userAnswers = ["Abuja", "Tinibu", "Elon musk"]; 
 
-let score = 0;
+let score = 0; 
 
 for(let i = 0; i < question.length; i++){
     if(userAnswers[i] === question[i].correctAnswer){
@@ -26,4 +26,4 @@ for(let i = 0; i < question.length; i++){
     }
 }
 
-console.log(`Final score: ${score}/${question.length}`)
+console.log(`Final score: ${score}/${question.length}`) 
