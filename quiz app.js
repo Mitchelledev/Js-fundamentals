@@ -27,3 +27,5 @@ for(let i = 0; i < question.length; i++){
 }
 
 console.log(`Final score: ${score}/${question.length}`) 
+
+
